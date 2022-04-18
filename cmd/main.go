@@ -3,26 +3,15 @@ package main
 import (
 	"flag"
 	"fmt"
-	"log"
 	"os"
 	"path/filepath"
 	"strings"
 )
 
 func main() {
-	var fatalErr error
 	var (
 		target = flag.String("target", "../test", "ファイル名をCaptilizeする階層")
 	)
-	flag.Parse()
-
-	defer func() {
-		if fatalErr != nil {
-			fmt.Println("defer")
-			flag.PrintDefaults()
-			log.Fatalln(fatalErr)
-		}
-	}()
 	flag.Parse()
 
 	fmt.Println("target", *target)
