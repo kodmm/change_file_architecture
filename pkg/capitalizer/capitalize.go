@@ -5,6 +5,9 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
+
+	"golang.org/x/text/cases"
+	"golang.org/x/text/language"
 	// "github.com/kodmm/change_file_architecture/internal/extention"
 )
 
@@ -32,8 +35,7 @@ func RenameTitle(target string) {
 }
 
 func NewFileName(name string) string {
-	tmp_name := strings.ReplaceAll(name, ".", "_")
-	tmp_name = strings.Title(tmp_name)
-	var new_name string = strings.ReplaceAll(tmp_name, "_", ".")
+	c := cases.Title(language.English, cases.NoLower)
+	new_name := c.String(name)
 	return new_name
 }

@@ -20,7 +20,7 @@ func main() {
 	defer func() {
 		if err := recover(); err != nil {
 			fmt.Println(fmt.Errorf("適切なpathを指定してください。"))
-			fmt.Println(errors.New(fmt.Sprintf("panic %s", err)))
+			fmt.Println(fmt.Errorf("panic %s", err))
 		}
 		if fatalErr != nil {
 			flag.PrintDefaults()

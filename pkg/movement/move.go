@@ -35,13 +35,13 @@ func CustomCopy(source, dest, name string) error {
 
 	src_file, err := os.Open(src_path)
 	if err != nil {
-		return fmt.Errorf("src_file: %s \n", err)
+		return fmt.Errorf("src_file: %s", err)
 	}
 	defer src_file.Close()
 
 	dest_file, err := os.Create(dest_path)
 	if err != nil {
-		return fmt.Errorf("dest_file: %s \n", err)
+		return fmt.Errorf("dest_file: %s", err)
 	}
 	defer dest_file.Close()
 
