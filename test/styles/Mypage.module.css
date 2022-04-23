@@ -1,0 +1,43 @@
+.mypage {
+    width: 100%;
+    padding: 8px 32px;
+    background-color: #fafafa;
+}
+.profile_content {
+    max-height: 290px;
+}
+.profile {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.profile_image {
+    list-style: none;
+    padding: 8px 8px;
+}
+.profile_name {
+    list-style: none;
+    padding: 16px 8px;
+}
+.photo {
+    border-radius: 12px;
+}
+.display_name {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+.content_box {
+    height: auto;
+    max-height: 1025px;
+    padding: 16px 4px;
+}
+.content {
+    height: 100%;
+}
+.title {
+    margin: 0 4px 32px;
+    padding-bottom: 6px;
+    border-bottom: 4px solid black;
+    font-size: 28px;
+}

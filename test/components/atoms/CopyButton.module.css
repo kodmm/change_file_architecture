@@ -1,0 +1,19 @@
+.copybutton_box {
+    padding-left: 6px;
+}
+.copyicon {
+    color: #757575;
+}
+.copyicon:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+.copyicon:active {
+    opacity: 0.50;
+}
+.iconlabel {
+    margin: 0;
+    padding-top: 1px;
+    color: #424242;
+    font-size: smaller;
+}

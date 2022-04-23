@@ -1,0 +1,13 @@
+.watchbutton_box {
+    margin-left: 16px;
+} 
+
+.watch_button {
+    width: 100%;
+    margin-top: 1px;
+}
+
+.watch_text {
+    margin: 0;
+    text-transform: none;
+}

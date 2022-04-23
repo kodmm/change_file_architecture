@@ -1,0 +1,50 @@
+.streaming_package {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px 12px;
+}
+.no_wrap {
+    flex-wrap: nowrap;
+}
+.streaming_package:last-child {
+    margin-right: 0px;
+    border-right: none;
+}
+
+.streaming_box {
+    display: flex;
+    padding-left: 0px;
+    justify-content: center;
+}
+
+.streaming {
+    padding-right: 8px;
+    list-style: none;
+}
+.streaming_line {
+    border-left: 1px dashed #b0bec5;
+}
+.streaming_line:first-child {
+    padding-left: 0;
+    border-left: none;
+}
+
+.flatrate {
+    padding: 0px 24px;
+}
+
+.streaming_title {
+    margin: 0px
+}
+
+.rent {
+    padding: 0px 24px;
+}
+
+.buy {
+    padding: 0px 24px;
+}
+
+.no_streaming {
+    color: #bdbdbd;
+}

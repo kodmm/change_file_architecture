@@ -1,0 +1,140 @@
+.watch_card_box {
+    box-shadow: 0px 1px 2px black;
+    border-radius: 4px;
+    list-style: none;
+    height: 160px;
+    position: relative;
+    margin-bottom: 8px;
+}
+.watch_card_box:last-child {
+    margin-bottom: 0;
+}
+
+.img_video {
+    margin-right: 18px;
+}
+.watch_card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    backface-visibility: hidden;
+    width: 100%;
+    transition: all 1s;
+    display: flex;
+    padding: 1px 0px;
+}
+.back_card_text {
+    font-size: 14px;
+}
+.back_card_text:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+.watch_card_front {
+    transform: rotateX(0deg)
+}
+.watch_card_back {
+    transform: rotateX(-180deg);
+}
+.link_hover:hover {
+    cursor: pointer;
+    opacity: 0.75;
+
+}
+.link_hover:active {
+    cursor: pointer;
+    opacity: 0.50;
+
+}
+/* .watch_card_back {
+    transform: rotateX(-180deg);
+} */
+.video_image {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.watch_content {
+    max-width: 450px;
+    width: 450px;
+    padding: 4px 8px;
+    margin-right: 16px;
+}
+.detail_content {
+    margin-left: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 4px 8px;
+}
+.cast_image_lists {
+    display: flex;
+    position: relative;
+    padding: 0 16px;
+    border: 1px solid #ffff;
+}
+.back_lists_title {
+    position: absolute;
+    font-size: 12px;
+    font-weight: 400;
+    background-color: #e3f2fd;
+    top: 0px;
+    left: 0;
+    transform: translateX(10%) translateY(-70%);
+
+}
+.cast_image_list {
+    padding: 4px 12px 4px 0;
+    list-style: none;
+    border-radius: 4px;
+}
+.cast_image_list:last-child {
+    padding: 4px 0;
+}
+.cast_image {
+    border-radius: 4px;
+}
+.casts_name {
+    opacity: 0.75;
+    font-size: 18px;
+    font-weight: 300;
+}
+.video_name {
+    margin: 0;
+    padding: 18px 0;
+    font-size: large;
+}
+.streaming {
+    padding: 4px 8px;
+}
+
+.watch_video_name_copy {
+    display: flex;
+    align-items: baseline;
+}
+.watchholder_icon_content {
+    display: flex;
+    padding: 4px 8px;
+    
+}
+.watchholder_label {
+    font-size: 14px;
+    opacity: 0.75;
+    margin: 0;
+}
+.watchholder_icon_box {
+    list-style: none;
+    margin-right: 24px;
+    text-align: center;
+}
+.watchholder_icon_box:last-child {
+    margin-right: 0;
+}
+.watchholder_icon_box:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+.watchholder_icon_box:active {
+    opacity: 0.5;
+}

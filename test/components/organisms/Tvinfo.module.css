@@ -1,0 +1,55 @@
+.tv_info {
+    background-color: #eceff1;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 32px 40px;
+    align-items: flex-start;
+    
+}
+.poster_box {
+    width: 300px;
+    height: 450px;
+}
+.poster {
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    /* object-fit: contain; */
+}
+.description_box {
+    width: 100%;
+    height: 100%;
+    padding-top: 16px;
+    padding-left: 32px;
+}
+.description {
+    width: 100%;
+    height: 100%;
+}
+.title_box{
+    display: flex;
+    align-items: baseline;
+
+}
+.title{
+    margin: 0;
+}
+
+.genres {
+    padding: 12px;
+}
+
+.overview_header {
+    border-bottom: 1px solid;
+    padding-bottom: 4px;
+}
+.overview {
+    padding-left: 12px;
+}
+
+.streaming_header {
+    border-bottom: 1px solid;
+    padding-bottom: 4px;
+}
+
+

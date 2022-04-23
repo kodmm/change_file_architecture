@@ -1,0 +1,50 @@
+.subtitle {
+    width: 99%;
+    border-bottom: 2px solid; 
+ }
+ 
+.scroll_box {
+    position: relative;
+}
+.scroll_box::after{
+    content: "";
+    top: 0;
+    right: 0;
+    width: 56px;
+    height: 100%;
+    position: absolute;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #fff 100%);
+
+}
+.casts {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-left: 0;
+}
+
+.card {
+    box-shadow: 0 0 2px;
+    list-style-type: none;
+    margin: 10px 10px 10px 5px;
+    border-radius: 8px;
+    width: 140px;
+
+}
+.image_box {
+    width: 140px;
+    height: 180px;
+    border-radius: inherit;
+}
+.image {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.text {
+    padding: 14px 8px 8px;
+}
+.character {
+    margin: 0;
+    padding-top: 8px;
+}

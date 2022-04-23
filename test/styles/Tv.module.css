@@ -1,0 +1,216 @@
+.tvinfo_box {
+    width: 100%;
+}
+.tvInfo {
+    background-color: #eceff1;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 32px 40px;
+    
+}
+.posterWrapper {
+    /* flex-grow: 0; */
+}
+.posterBox {
+    width: 300px;
+    height: 450px;
+}
+.poster {
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    /* object-fit: contain; */
+}
+.descriptionWrapper {
+    /* flex-grow: 1; */
+}
+.descriptionBox {
+    width: 100%;
+    height: 100%;
+    padding-left: 32px;
+    /* background-color: green; */
+}
+.description {
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.title{
+    margin-top: 0;
+}
+.overviewHeader {
+    border-bottom: 1px solid;
+    padding-bottom: 4px;
+}
+.credits_box {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 32px 40px;
+}
+.castsWrapper {
+    width: 64%;
+    box-shadow: 0px 0px 4px;
+    border-radius: 4px;
+    padding-left: 16px;
+}
+.scrollBox {
+    position: relative;
+}
+.scrollBox::after{
+    content: "";
+    top: 0;
+    right: 0;
+    width: 56px;
+    height: 100%;
+    position: absolute;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #fff 100%);
+
+}
+.casts {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-left: 0;
+}
+
+.card {
+    box-shadow: 0px 1px 2px;
+    list-style-type: none;
+    margin: 10px 10px 10px 5px;
+    border-radius: 8px;
+
+}
+.imageBox {
+    width: 140px;
+    height: 180px;
+    border-radius: inherit;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+}
+.text {
+    padding: 14px 8px 8px;
+}
+.character {
+    margin: 0;
+    padding-top: 8px;
+}
+.spacer_min {
+    width: 2%;
+}
+.crews_wrapper {
+    width: 34%;
+    box-shadow: 0px 0px 4px;
+    border-radius: 4px;
+    padding-left: 16px;
+}
+.crew {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-left: 0;
+}
+/* chat styles */
+.chatWrapper {
+    width: 100%;
+    height: 400px;
+    background-color: khaki;
+    border: 10px groove #008039;
+}
+.chatBox {
+    padding: 8px 8px;
+    height: 100%;
+    /* background-color: lightblue; */
+    
+}
+.subtitle {
+   width: 99%;
+   border-bottom: 2px solid; 
+}
+.chat {
+    width: 100%;
+    height: 85%;
+    background-color: antiquewhite;
+}
+.messages {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.messageBox {
+    padding: 8px;
+    box-shadow: 0px 1px 8px red;
+}
+.message {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-items: flex-start;
+}
+.iconBox {
+    width: 50px;
+    height: 100%;
+    background-color: blue;
+}
+
+.textForm {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-items: flex-start;
+    padding: 4px 0;
+    height: 15%;
+}
+.textField {
+    width: 70%;
+    height: 100%;
+
+}
+.submitButton {
+    height: 100%;
+}
+
+.backdrops_wrap {
+    width: 100%;
+    padding: 32px 40px;
+}
+.backdropsBox {
+    box-shadow: 0px 0px 4px;
+    border-radius: 4px;
+    padding-left: 16px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.backdrops {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-items: flex-start;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 300px;
+    list-style: none;
+    padding: 0;
+    
+}
+
+.backdropBox {
+    padding: 4px;
+}
+
+.backdrop {
+    width: 500px;
+    height: 100%;
+}
+

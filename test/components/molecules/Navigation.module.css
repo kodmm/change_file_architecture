@@ -1,0 +1,27 @@
+.items {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+}
+.item {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: 16px;
+    cursor: pointer;
+    padding: 8px;
+    align-items: center;
+}
+.item:last-child {
+    margin-right: 0;
+}
+.item:hover{
+    color: #61dafb;
+}
+.name {
+    margin: 0;
+    margin-left: 4px;
+}
+.user_photo {
+    border-radius: 16px;
+}

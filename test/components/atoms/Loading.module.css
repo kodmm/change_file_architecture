@@ -1,0 +1,6 @@
+.loading_box {
+    position: fixed;
+    top: 45%;
+    left: 45%;
+    opacity: 0.75;
+}
